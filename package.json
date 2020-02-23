@@ -1,0 +1,40 @@
+{
+  "name": "Week3",
+  "version": "1.0.0",
+  "description": "Week3",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "autoprefixer": "^9.7.x",
+    "browser-sync": "^2.26.x",
+    "cssnano": "4.1.10",
+    "del": "^5.1.0",
+    "gulp": "^4.0.x",
+    "gulp-babel": "^8.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "1.2.x",
+    "gulp-postcss": "8.0.x",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "4.0.x",
+    "gulp-sourcemaps": "2.6.x",
+    "gulp-svgstore": "^7.0.1",
+    "gulp-twig": "1.2.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webp": "^4.0.1",
+    "stylelint": "13.1.x",
+    "webpack": "^4.41.6",
+    "webpack-stream": "^5.2.1"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "IE 11",
+    "Firefox ESR"
+  ],
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}

@@ -1,0 +1,152 @@
+.slick-track {
+    display: flex;
+}
+.slider-top .slick-track {
+    flex-direction: column;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slider-top .slick-list {
+    max-width: 925px;
+}
+
+.slider-popular .slick-list {
+    max-width: 90%;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.slider-top{
+    position: relative;
+    display: flex;
+    max-width: 925px;
+}
+
+.slider-popular {
+    position: relative;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    font-size: 0;
+    width: 14px;
+    height: 17px;
+    cursor: pointer;
+
+    &.slick-disabled {
+        visibility: hidden;
+    }
+}
+
+.slick-prev {
+    left: 15px;
+    background: url('../assets/images/icons/arr-left.svg') 0 0 / 100% no-repeat;
+}
+
+.slick-next {
+    right: 240px;
+    background: url('../assets/images/icons/arr-right.svg') 0 0 / 100% no-repeat;
+}
+
+.slider-top .slick-prev {
+    left: 15px;
+}
+
+.slider-top .slick-next {
+    right: 240px;
+}
+
+.slider-popular .slick-prev {
+    left: 0px;
+}
+
+.slider-popular .slick-next {
+    right: 0px;
+}
+
+.slider-top .slick-dots {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.slider-top .slick-dots li {
+    list-style: none;
+    cursor: pointer;
+    
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    &.slick-active {
+        opacity: 0.35;
+    }
+}
+
+.slider-top .slick-dots img{
+    width: 200px;
+    height: 130px;
+}
+
+.slider-top .description {
+    display: flex;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 2;
+    bottom: 6px;
+    padding: 5px 15px;
+}
+
+.slider-popular .description {
+
+}
+
+.description__author, .description__size {
+    color: rgb(199, 199, 199);
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.description__price {
+    color: rgb(252, 163, 31);
+}
+
+.description__history-creation, .description__product{
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-popular__product {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.slider-top__item {
+    position: relative;  
+}
+
+.slider-top__history-creation {
+    margin-right: 60px;
+}
+
+.slider-popular__history-creation {
+    max-width: 200px;
+}
+
+.slider-popular__item {
+    align-self: center;
+    margin: 0 60px;
+    position: relative;
+}
+
+.slider-popular__image{
+    border: 1px solid #000;
+    box-shadow: 0 0 50px;
+}
+

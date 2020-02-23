@@ -1,0 +1,103 @@
+
+.contact-us__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-us__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    margin-right: 80px;
+}
+
+.contact-us__subtitle {
+    color: $text-color-secondary;
+    margin-bottom: 20px;
+}
+
+.contact-us__form {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+.contact-us__form > * {
+    margin-bottom: 10px;
+    border-radius: (2px);
+    padding: 10px 0 10px 5px;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.contact-us__form button {
+    background-color: rgb(34, 2, 216);
+    color:  $text-color-primary;
+    width: 200px;
+    align-self: flex-end;
+    transition: all 1s;
+
+    &:active {
+        transform: scale(0.8);
+        transition: all 0.2s;
+    }
+}
+
+.form-success.hidden {
+    display: none;
+}
+
+.form {
+    display: flex;
+    width: 300px;
+    min-height: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-success {
+    color: #03ae00;
+}
+
+.form-success > p:first-child{
+    font-size: 30px;
+    transform: rotate(-15deg);
+    margin-bottom: 60px;
+}
+
+.popup-content, .contact-us__email {
+    color: $text-color-secondary;
+    display: inline; 
+
+    &:hover {
+        color: $text-color-secondary;
+        text-decoration: underline;
+    }
+}
+
+.contact-us__copyright {
+    color: $text-color-secondary;
+    font-size: 12px;
+}
+
+.popup-content {
+    margin-top: auto;
+    font-size: 16px;
+}
+
+.form {
+    position: relative;
+}
+.form-error {
+    position: absolute;
+    top: -50px;
+    left: 10px;
+    color: red;
+    align-self: flex-start;
+    width: 300px;
+    display: block;
+}
+
+.form-error.hidden {
+    display: none;
+}
